@@ -1,5 +1,7 @@
 .box-shadow{
-  box-shadow: 25px 25px;
+  box-shadow: 25px 25px black;
+  border: 25px 25px  solid slateblue;
+
 }
 
 .box-shadow-hover:hover{

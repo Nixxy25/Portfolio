@@ -17,3 +17,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
