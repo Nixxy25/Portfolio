@@ -1,7 +1,7 @@
 
 const AboutMe = () => {
   return (
-    <div className="px-24 py-8 flex flex-col gap-6">
+    <div className="px-24 py-16 flex flex-col gap-6">
         <div className="text-center">About Me</div>
 
         <div className="text-center">This initial step involves a systematic and thorough exploration of 
