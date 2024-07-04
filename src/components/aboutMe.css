@@ -1,0 +1,14 @@
+.timeline .timeline-row::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 20px;
+    background-color: #219ebc;
+    height: 20px;
+    border-radius: 50%;
+    left: -2.2%;
+}
+
+.timeline{
+    position: relative;
+}
