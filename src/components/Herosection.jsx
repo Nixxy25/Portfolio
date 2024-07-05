@@ -35,7 +35,7 @@ const HeroSection = () => {
                     }`}
                     ></span>
                     <span
-                    className={`block absolute bg-[#219ebc] h-[3px]  w-10 bg-black transform transition duration-300 ease-in-out ${
+                    className={`block absolute bg-[#219ebc] h-[3px]  w-10 transform transition duration-300 ease-in-out ${
                         isOpen ? "-rotate-45 " : "translate-y-2.5"
                     }`}
                     ></span>
@@ -49,7 +49,7 @@ const HeroSection = () => {
                     <p>Contact</p>
                 </div>
 
-                <div className={`flex gap-8 items-center max-sm:flex-col ${isOpen ? "max-sm:flex" : "max-sm:hidden"}`}><button className="rounded-md border px-4 py-2 text-sm border-[#219ebc] text-[#219ebc]">Hire Now</button></div>
+                <div className={`flex gap-8 items-center max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:pb-20" : "max-sm:hidden"}`}><button className="rounded-md border px-4 py-2 text-sm border-[#219ebc] text-[#219ebc]">Hire Now</button></div>
             </nav>
 
             <div className="flex  justify-between items-center gap-8 max-sm:flex-col">
