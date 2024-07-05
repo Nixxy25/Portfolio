@@ -3,9 +3,21 @@ import curvedArrow from "../assets/Images/arrow.png";
 import line from "../assets/Images/line1.png";
 import { useState } from "react";
 import 'animate.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const HeroSection = () => {
     const [isOpen, setIsOpen] = useState(false);
+
+    useEffect(() => {
+        AOS.init({
+            offset: 200,
+            duration: 600,
+            easing: 'ease-in-sine',
+            delay: 100,
+        });
+      }, []);
 
   return (
     <div className="px-24 pb-16 pt-4 w-full h-full max-sm:px-8 max-lg:px-12">
