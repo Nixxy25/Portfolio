@@ -2,13 +2,13 @@
 
 const Contact = () => {
   return (
-    <div className="h-full w-full px-24 pt-16 pb-6 flex flex-col gap-12 max-sm:px-6">
+    <div className="h-full w-full px-24 pt-16 pb-6 flex flex-col gap-12 max-sm:px-6 max-lg:px-12">
         <div className="text-center flex justify-center pb-10">
             <p className=" border-l-4 px-4 py-2 border-[#219ebc] bg-[#219dbc70] text-2xl">Contact Me</p>
         </div>
 
             <div className="flex justify-center pb-10 ">
-                <div className="flex flex-col justify-center  max-sm:w-full  w-1/2 gap-12">
+                <div className="flex flex-col justify-center  max-sm:w-full  w-1/2 max-lg:w-10/12 gap-12">
                     <p className="text-center text-5xl font-bold text-white">Get In Touch</p>
                     <p className="text-lg text-gray-400 text-center">Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or 
                     just want to say hi, I’ll try my best to get back to you!</p>
