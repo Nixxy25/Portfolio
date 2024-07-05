@@ -9,8 +9,8 @@ const HeroSection = () => {
   return (
     <div className="px-24 pb-16 pt-4 w-full h-full max-sm:px-8">
 
-         <img src={line} className="absolute line left-0 top-32" alt="line"></img>
-        <img src={line} className="absolute line bottom-10 right-0" alt="line"></img>
+         <img src={line} className="absolute line left-0 top-32 max-sm:hidden" alt="line"></img>
+        <img src={line} className="absolute line bottom-10 right-0 max-sm:hidden" alt="line"></img>
 
         <div className=" flex gap-20 flex-col">
             <nav className={`flex border-b justify-between border-[#219ebc] py-4 text-[#f1faee] ${isOpen ? "max-lg:fixed max-sm:flex-col max-sm:bg-[#001233] max-sm:h-screen max-sm:z-20 max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:pt-8 max-sm:px-8" : "max-sm:flex-col"}`}>
@@ -55,7 +55,7 @@ const HeroSection = () => {
             <div className="flex  justify-between items-center gap-8 max-sm:flex-col">
                 <div className="flex flex-col gap-8  max-w-2xl w-full ">
                     <p className="text-xl ">Hi, I'm Tella Oyinkansola</p>
-                    <p className="text-5xl text-[#219ebc] font-bold">Front End Developer.</p>
+                    <p className="text-5xl text-[#219ebc] font-bold max-sm:text-3xl">Front End Developer.</p>
                     <div className="lg:w-3/4 text-gray-400">
                         <p>Creative Front-End Developer specializing in modern web technologies like React.js, 
                         Tailwind CSS,Redux and TypeScript.Dedicated to delivering high-quality, interactive user interfaces.</p>
@@ -74,7 +74,7 @@ const HeroSection = () => {
                 </div>
                 <div className="flex flex-col justify-center items-center w-3/4 h-full">
                     <div className="color-overlay ">
-                        <img src={heroLogo} className="w-80 my-image box-shadow rounded-md grayscale" alt="my-image"></img>
+                        <img src={heroLogo} className="w-80 my-image  rounded-md grayscale" alt="my-image"></img>
                     </div>
                  
                 </div>
