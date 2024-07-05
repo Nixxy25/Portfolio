@@ -9,7 +9,7 @@ const Contact = () => {
 
             <div className="flex justify-center pb-10 ">
                 <div className="flex flex-col justify-center  max-sm:w-full  w-1/2 max-lg:w-10/12 gap-12">
-                    <p className="text-center text-5xl font-bold text-white">Get In Touch</p>
+                    <p className="text-center text-5xl max-sm:text-3xl font-bold text-white">Get In Touch</p>
                     <p className="text-lg text-gray-400 text-center">Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or 
                     just want to say hi, I’ll try my best to get back to you!</p>
                     <div className="flex justify-center"><button className="rounded-md border-2 font-bold text-[#219ebc] py-4 px-3 border-[#219ebc]">Book a Free Call</button></div>
