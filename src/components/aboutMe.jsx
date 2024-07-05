@@ -2,13 +2,13 @@ import "./aboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div className="px-24 py-16 max-sm:px-8 max-lg:px-12 flex flex-col gap-12 h-full items-center" data-aos="fade-up-right">
+    <div className="px-24 py-16 max-sm:px-8 max-lg:px-12 flex flex-col gap-12 h-full items-center">
         <div className="text-center flex justify-center">
             <p className=" border-l-4 px-4 py-2 border-[#219ebc] bg-[#219dbc70] text-2xl" >About Me</p>
         </div>
 
         <div className="flex justify-between gap-10 px-16 max-lg:px-0 max-sm:flex-col">
-            <div className="w-full">
+            <div className="w-full"  data-aos="fade-right">
                 <div className="pb-12 text-white text-lg flex gap-2 items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-5 " fill="#219ebc"><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg>
                     <p className="">My Profile</p>
@@ -26,7 +26,7 @@ const AboutMe = () => {
                 </div>
             </div>
        
-            <div className="w-full h-full flex flex-col">
+            <div className="w-full h-full flex flex-col"  data-aos="fade-left">
 
                 <div className="text-white pb-12 flex gap-2 items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-5" fill="#219ebc" viewBox="0 0 448 512"><path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>

@@ -2,7 +2,7 @@ import Poolot from "../assets/Images/poolot1.png";
 import Todo from "../assets/Images/tindog1.png";
 const Projects = () => {
   return (
-    <div className="h-full w-full px-24 py-16 max-sm:px-8 max-lg:px-12">
+    <div className="h-full w-full px-24 py-16 max-sm:px-8 max-lg:px-12"  data-aos="fade-up">
 
         <div className="text-center flex justify-center pb-10">
             <p className=" border-l-4 px-4 py-2 border-[#219ebc] bg-[#219dbc70] text-2xl">Projects</p>
@@ -10,7 +10,7 @@ const Projects = () => {
 
         <div className="flex flex-col gap-16 max-lg:gap-24">
             <div className="flex justify-between gap-16 max-lg:gap-6 items-center max-lg:flex-col max-lg:flex-col-reverse">
-                <div className="poolot shadow-n rounded-md p-8 flex flex-col gap-8">
+                <div className="poolot shadow-n rounded-md p-8 flex flex-col gap-8"  data-aos="fade-right">
                     <div className="flex flex-col gap-4">
                         <p className="text-[#219ebc] text-sm">Featured -- Poolot</p>
                         <p className="text-2xl font-bold">Poolot</p>
@@ -32,13 +32,13 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="w-11/12 max-lg:w-full">
+                <div className="w-11/12 max-lg:w-full" data-aos="fade-left">
                     <img src={Poolot} className="h" alt="Poolot-image-website"/>
                 </div>
             </div>
 
             <div className="flex justify-between gap-16 max-lg:gap-6 items-center flex-row-reverse max-lg:flex-col max-lg:flex-col-reverse">
-                <div className="poolot shadow-n rounded-md p-8 flex flex-col gap-8">
+                <div className="poolot shadow-n rounded-md p-8 flex flex-col gap-8" data-aos="fade-left">
                     <div className="flex flex-col gap-4">
                         <p className="text-[#219ebc] text-sm">Featured -- Poolot</p>
                         <p className="text-2xl font-bold">Poolot</p>
@@ -60,14 +60,14 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="w-11/12 max-lg:w-full">
+                <div className="w-11/12 max-lg:w-full" data-aos="fade-right">
                     <img src={Todo} className="" alt="Poolot-image-website"/>
                 </div>
             </div>
 
 
             <div className="flex justify-between gap-16 max-lg:gap-6 items-center max-lg:flex-col max-lg:flex-col-reverse">
-                <div className="poolot shadow-n rounded-md p-8 flex flex-col gap-8">
+                <div className="poolot shadow-n rounded-md p-8 flex flex-col gap-8" data-aos="fade-right">
                     <div className="flex flex-col gap-4">
                         <p className="text-[#219ebc] text-sm">Featured -- Poolot</p>
                         <p className="text-2xl font-bold">Poolot</p>
@@ -89,14 +89,14 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="w-11/12 max-lg:w-full">
+                <div className="w-11/12 max-lg:w-full" data-aos="fade-left">
                     <img src={Poolot} className="" alt="Poolot-image-website"/>
                 </div>
             </div>
 
 
             <div className="flex justify-between gap-16 max-lg:gap-6 items-center flex-row-reverse max-lg:flex-col max-lg:flex-col-reverse">
-                <div className="poolot shadow-n rounded-md p-8 flex flex-col gap-8">
+                <div className="poolot shadow-n rounded-md p-8 flex flex-col gap-8" data-aos="fade-left">
                     <div className="flex flex-col gap-4">
                         <p className="text-[#219ebc] text-sm">Featured -- Poolot</p>
                         <p className="text-2xl font-bold">Poolot</p>
@@ -118,7 +118,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="w-11/12 max-lg:w-full">
+                <div className="w-11/12 max-lg:w-full" data-aos="fade-right">
                     <img src={Poolot} className="" alt="Poolot-image-website"/>
                 </div>
             </div>
