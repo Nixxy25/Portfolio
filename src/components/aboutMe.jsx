@@ -15,7 +15,7 @@ const AboutMe = () => {
                     <p className="">My Profile</p>
                 </div>
 
-                <div className="flex flex-col w-full gap-4 text-gray-400">
+                <div className="flex flex-col w-full gap-4 text-gray-400 pb-8">
                 <p>Hello 😀! My name is <span className="text-[#219ebc]">Oyinkansola</span>, and I'm a front-end developer 💻 passionate about 
                 creating visually appealing and <span className="text-[#219ebc]">user-friendly</span> web experiences. I specialize in building responsive, <span className="text-[#219ebc]">interactive </span>
                 websites that provide seamless user interactions.</p>
@@ -25,6 +25,8 @@ const AboutMe = () => {
                 <p>I thrive on the challenge of  <span className="text-[#219ebc]">turning ideas into reality</span> and continuously strive to enhance my skills.
                 Let's  <span className="text-[#219ebc]">work together</span> to bring your  <span className="text-[#219ebc]">vision to life</span> with engaging and dynamic web solutions!</p>
                 </div>
+
+                <p className="text-gray-400">Kindly check <span className="text-[#219ebc]">my resume</span>😀😀 for more of my development expertise</p>
             </div>
        
             <div className="w-full h-full flex flex-col"  data-aos="fade-left">

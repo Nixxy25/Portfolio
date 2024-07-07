@@ -6,9 +6,15 @@
     background-color: #219ebc;
     height: 20px;
     border-radius: 50%;
-    left: -3%;
+    left: -2%;
 }
 
 .timeline{
     position: relative;
+}
+
+@media only screen and (max-width: 600px){
+    .timeline .timeline-row::before{
+        left:-3%;
+    }
 }
