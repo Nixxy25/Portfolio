@@ -1,6 +1,8 @@
 import HeroSection from "./components/Herosection";
 import AboutMe from "./components/aboutMe";
 import "./App.css"
+import 'animate.css/animate.min.css';
+import 'hover.css/css/hover-min.css';
 import Skills from "./components/skills"
 import Projects from "./components/projects";
 import Contact from "./components/contact";

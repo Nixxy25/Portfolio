@@ -1,8 +1,8 @@
 import heroLogo from "../assets/Images/portfolio-img.png";
+import logo from "../assets/Images/oyin-logo-removebg-preview.png"
 import curvedArrow from "../assets/Images/arrow.png";
 import line from "../assets/Images/line1.png";
 import { useState } from "react";
-import 'animate.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -27,10 +27,9 @@ const HeroSection = () => {
 
         <div className=" flex gap-20 flex-col">
             <nav className={`flex max-lg:pb-8 max-sm:border-none animate__animated animate__fadeInDown border-b justify-between border-[#219ebc] py-4 text-[#f1faee] ${isOpen ? "max-lg:fixed max-sm:flex-col max-sm:bg-[#001233] max-sm:h-screen max-sm:z-20 max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:pt-8 max-sm:px-8" : "max-sm:flex-col"}`}>
-                <div className="max-sm:flex max-sm:justify-between">
-                    <div className="flex gap-2 items-center">
-                        <div><img src={heroLogo} className="w-10 rounded-full" alt="hero-logo"></img></div>
-                        <div className="text-[#219ebc] font-bold">OYINIXXI</div>
+                <div className="max-sm:flex items-center max-sm:justify-between">
+                    <div className="">
+                        <div><img src={logo} className="w-20 rounded-full" alt="hero-logo"></img></div> 
                     </div>
                     
                     <button
@@ -55,14 +54,14 @@ const HeroSection = () => {
                 </button>
               </div>
              
-                <div className={`flex gap-8 items-center max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:text-3xl max-sm:text-[#219ebc] max-sm:uppercase" : "max-sm:hidden"}`}>
-                    <p className="hover:border-b-2 border-white">About Me</p>
-                    <p>Skills</p>
-                    <p>Projects</p>
-                    <p>Contact</p>
+                <div className={`flex gap-12 items-center cursor-pointer max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:text-3xl max-sm:text-[#219ebc] max-sm:uppercase" : "max-sm:hidden"}`}>
+                    <p className="hvr-grow hover:text-[#219ebc]">About Me</p>
+                    <p className="hvr-grow hover:text-[#219ebc]">Skills</p>
+                    <p className="hvr-grow hover:text-[#219ebc]">Projects</p>
+                    <p className="hvr-grow hover:text-[#219ebc]">Contact</p>
                 </div>
 
-                <div className={`flex gap-8 items-center max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:pb-20" : "max-sm:hidden"}`}><button className="rounded-md border px-4 py-2 text-sm border-[#219ebc] text-[#219ebc]">Hire Now</button></div>
+                <div className={`flex gap-8 items-center max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:pb-20" : "max-sm:hidden"}`}><button className="rounded-md border px-4 py-2 hvr-sweep-to-right text-sm border-[#219ebc] text-[#219ebc]">Hire Now</button></div>
             </nav>
 
             <div className="flex  justify-between items-center gap-8  max-lg:flex-col">
@@ -76,10 +75,10 @@ const HeroSection = () => {
                  
                     <div className="flex flex-col w-72 gap-4 max-sm:pb-8 ">
                         <div className="flex gap-8 font-bold items-center ">
-                            <button className="bg-white text-[#001233] rounded-md border px-4 py-3 text-sm">Get in touch</button>
-                            <button className="rounded-md border px-4 py-3 text-sm border-white">Explore me</button>
+                            <button className="bg-white text-[#001233] rounded-md border px-4 py-3 text-sm  hvr-sweep-to-right hover:border hover:border-[#219ebc]">Get in touch</button>
+                            <button className="rounded-md border px-4 py-3 text-sm border-white hvr-sweep-to-right hover:border hover:border-[#219ebc]">Explore me</button>
                         </div>
-                        <div className="flex items-center justify-center">
+                        <div className="flex items-center justify-center animate__animated animate__wobble animate__delay-2s">
                             <img src={curvedArrow} className="w-24 line curve" alt="Hire me"/>
                         </div>
                     </div>

@@ -12,7 +12,7 @@ const Contact = () => {
                     <p className="text-center text-5xl max-sm:text-3xl font-bold text-white" data-aos="fade-up">Get In Touch</p>
                     <p className="text-lg text-gray-400 text-center" data-aos="fade-up">Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or 
                     just want to say hi, I’ll try my best to get back to you!</p>
-                    <div className="flex justify-center" data-aos="fade-up"><button className="rounded-md border-2 font-bold text-[#219ebc] py-4 px-3 border-[#219ebc]">Book a Free Call</button></div>
+                    <div className="flex justify-center" data-aos="fade-up"><button className="hvr-sweep-to-right rounded-md border-2 font-bold text-[#219ebc] py-4 px-3 border-[#219ebc]">Book a Free Call</button></div>
                 </div>
             </div>
 
