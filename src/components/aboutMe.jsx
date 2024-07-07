@@ -1,8 +1,9 @@
 import "./aboutMe.css";
+import { Element } from "react-scroll";
 
 const AboutMe = () => {
   return (
-    <div className="px-24 py-16 max-sm:px-8 max-lg:px-12 flex flex-col gap-12 h-full items-center">
+    <Element name="About" className="px-24 py-16 max-sm:px-8 max-lg:px-12 flex flex-col gap-12 h-full items-center">
         <div className="text-center flex justify-center">
             <p className=" border-l-4 px-4 py-2 border-[#219ebc] bg-[#219dbc70] text-2xl" >About Me</p>
         </div>
@@ -75,7 +76,7 @@ const AboutMe = () => {
 
             </div>
         </div>
-    </div>
+    </Element>
   )
 }
 

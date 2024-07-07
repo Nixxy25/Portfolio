@@ -1,8 +1,9 @@
-
+import { Element } from "react-scroll";
 
 const Contact = () => {
   return (
-    <div className="h-full w-full px-24 pt-16 pb-6 flex flex-col gap-12 max-sm:px-6 max-lg:px-12">
+    <div>
+    <Element name="Contact" className="h-full w-full px-24 pt-16 pb-6 flex flex-col gap-12 max-sm:px-6 max-lg:px-12">
         <div className="text-center flex justify-center pb-10" data-aos="fade-up">
             <p className=" border-l-4 px-4 py-2 border-[#219ebc] bg-[#219dbc70] text-2xl">Contact Me</p>
         </div>
@@ -26,6 +27,7 @@ const Contact = () => {
                 </div>
                 <div className="flex text-sm text-gray-400">Built by Tella Oyinkansola</div>
             </div>
+        </Element>
     </div>
   )
 }

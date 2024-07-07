@@ -10,11 +10,13 @@ import Redux from "../assets/Images/redux-image.png"
 import Sass from "../assets/Images/sass-image.png"
 import Tailwind from "../assets/Images/tailwind-image.png"
 import Skrew from "../assets/Images/skrew-1.png"
+import { Element } from "react-scroll"
 
 ////SEO FOR WEBSITE
 const Skills = () => {
   return (
-    <div className="relative flex flex-col px-24 py-16 h-full max-sm:px-8 max-lg:px-12 ">
+    <div>
+    <Element name="Skills" className="relative flex flex-col px-24 py-16 h-full max-sm:px-8 max-lg:px-12 ">
         
         <img className="absolute line top-0 left-0" src={Skrew} alt="side-icon"></img>
         <img className="absolute line bottom-0 right-0" src={Skrew} alt="side-icon"></img>
@@ -53,7 +55,7 @@ const Skills = () => {
                 Tailwind CSS,Redux and TypeScript..</p>
             </div>
         </div>
-        <div className="grid grid-cols-12 max-sm:grid-cols-4 gap-2 max-lg:grid-cols-6  items-center" data-aos="fade-up">
+        <div className="grid grid-cols-12 max-sm:grid-cols-4  max-lg:grid-cols-6  items-center" data-aos="fade-up">
             <div className="flex flex-col gap-2 items-center">
                 <img src={Html} className="w-20" alt="Html-image"></img>
                 <p>Html</p>
@@ -103,6 +105,7 @@ const Skills = () => {
                 <p>Framer</p>
             </div> 
         </div>
+    </Element>
     </div>
   )
 }

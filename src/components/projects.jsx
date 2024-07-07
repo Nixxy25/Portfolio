@@ -1,8 +1,10 @@
 import Poolot from "../assets/Images/poolot1.png";
 import Todo from "../assets/Images/tindog1.png";
+import { Element } from "react-scroll";
 const Projects = () => {
   return (
-    <div className="h-full w-full px-24 py-16 max-sm:px-8 max-lg:px-12"  data-aos="fade-up">
+    <div>
+    <Element name="Projects" className="h-full w-full px-24 py-16 max-sm:px-8 max-lg:px-12"  data-aos="fade-up">
 
         <div className="text-center flex justify-center pb-10">
             <p className=" border-l-4 px-4 py-2 border-[#219ebc] bg-[#219dbc70] text-2xl">Projects</p>
@@ -123,6 +125,7 @@ const Projects = () => {
                 </div>
             </div>
         </div>
+        </Element>
     </div>
   )
 }

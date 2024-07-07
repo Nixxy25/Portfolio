@@ -6,6 +6,7 @@ import { useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Link, Element } from "react-scroll";
 
 const HeroSection = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -55,10 +56,10 @@ const HeroSection = () => {
               </div>
              
                 <div className={`flex gap-12 items-center cursor-pointer max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:text-3xl max-sm:text-[#219ebc] max-sm:uppercase" : "max-sm:hidden"}`}>
-                    <p className="hvr-grow hover:text-[#219ebc]">About Me</p>
-                    <p className="hvr-grow hover:text-[#219ebc]">Skills</p>
-                    <p className="hvr-grow hover:text-[#219ebc]">Projects</p>
-                    <p className="hvr-grow hover:text-[#219ebc]">Contact</p>
+                    <Link to="About" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]">About Me</Link>
+                    <Link to="Skills" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]">Skills</Link>
+                    <Link to="Projects" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]">Projects</Link>
+                    <Link to="Contact" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]">Contact</Link>
                 </div>
 
                 <div className={`flex gap-8 items-center max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:pb-20" : "max-sm:hidden"}`}><button className="rounded-md border px-4 py-2 hvr-sweep-to-right text-sm border-[#219ebc] text-[#219ebc]">Hire Now</button></div>
