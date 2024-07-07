@@ -6,10 +6,12 @@ import { useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { Link, Element } from "react-scroll";
+import { Link, Element} from "react-scroll";
 
 const HeroSection = () => {
     const [isOpen, setIsOpen] = useState(false);
+
+   
 
     useEffect(() => {
         AOS.init({
@@ -21,16 +23,17 @@ const HeroSection = () => {
       }, []);
 
   return (
-    <div className="px-24 pb-16 pt-4 w-full h-full max-sm:px-8 max-lg:px-12">
+    <div>
+    <Element name="Hero" className="px-24 pb-16 pt-4 w-full h-full max-sm:px-8 max-lg:px-12">
 
          <img src={line} className="absolute line left-0 top-32 max-lg:hidden" alt="line"></img>
         <img src={line} className="absolute line bottom-10 right-0 max-lg:hidden" alt="line"></img>
 
         <div className=" flex gap-20 flex-col">
-            <nav className={`flex max-lg:pb-8 max-sm:border-none animate__animated animate__fadeInDown border-b justify-between border-[#219ebc] py-4 text-[#f1faee] ${isOpen ? "max-lg:fixed max-sm:flex-col max-sm:bg-[#001233] max-sm:h-screen max-sm:z-20 max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:pt-8 max-sm:px-8" : "max-sm:flex-col"}`}>
+            <nav className={`flex max-lg:pb-8  max-sm:border-none animate__animated animate__fadeInDown border-b justify-between border-[#219ebc] py-4 text-[#f1faee] ${isOpen ? "max-lg:fixed max-sm:flex-col max-sm:bg-[#001233] max-sm:h-screen max-sm:z-20 max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:pt-8 max-sm:px-8" : "max-sm:flex-col"}`}>
                 <div className="max-sm:flex items-center max-sm:justify-between">
                     <div className="">
-                        <div><img src={logo} className="w-20 rounded-full" alt="hero-logo"></img></div> 
+                        <Link to="Hero" smooth={true} duration={500}><img src={logo} className="w-20 rounded-full" alt="hero-logo" onClick={() => setIsOpen(false)}></img></Link> 
                     </div>
                     
                     <button
@@ -56,10 +59,10 @@ const HeroSection = () => {
               </div>
              
                 <div className={`flex gap-12 items-center cursor-pointer max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:text-3xl max-sm:text-[#219ebc] max-sm:uppercase" : "max-sm:hidden"}`}>
-                    <Link to="About" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]">About Me</Link>
-                    <Link to="Skills" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]">Skills</Link>
-                    <Link to="Projects" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]">Projects</Link>
-                    <Link to="Contact" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]">Contact</Link>
+                    <Link to="About" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}>About Me</Link>
+                    <Link to="Skills" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}>Skills</Link>
+                    <Link to="Projects" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}>Projects</Link>
+                    <Link to="Contact" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}>Contact</Link>
                 </div>
 
                 <div className={`flex gap-8 items-center max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:pb-20" : "max-sm:hidden"}`}><button className="rounded-md border px-4 py-2 hvr-sweep-to-right text-sm border-[#219ebc] text-[#219ebc]">Hire Now</button></div>
@@ -92,6 +95,7 @@ const HeroSection = () => {
                 </div>
             </div>
         </div>
+        </Element>
     </div>
   )
 }
