@@ -31,8 +31,8 @@ const HeroSection = () => {
         <img src={line} className="absolute line bottom-10 right-0 max-lg:hidden" alt="line"></img>
 
         <div className=" flex gap-20 flex-col ">
-            <nav className={`flex fixed z-50 px-24 max-sm:px-8 bg-[#001233] max-lg:px-12 w-full max-lg:pb-8 max-sm:pb-2 py-3 items-center  animate__animated animate__fadeInDown border-b justify-between border-[#219ebc] max-sm:border-none text-[#f1faee] ${isOpen ? "max-lg:fixed max-sm:flex-col max-sm:bg-[#001233] max-sm:h-screen max-sm:z-20 max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:pt-8 max-sm:px-8" : "max-sm:flex-col"}`}>
-                <div className="max-sm:flex w-full items-center max-sm:justify-between">
+            <nav className={`flex fixed z-50 px-24 max-sm:px-8 bg-[#001233] max-lg:px-12 w-full max-lg:pb-8 max-sm:pb-6 py-6 items-center  animate__animated animate__fadeInDown border-b justify-between border-[#219ebc]  text-[#f1faee] ${isOpen ? "max-lg:fixed max-sm:flex-col max-sm:bg-[#001233] max-sm:h-screen max-sm:z-20 max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:pt-8 max-sm:px-8" : "max-sm:flex-col"}`}>
+                <div className="max-sm:flex max-sm:w-full items-center max-sm:justify-between">
                     <div className="">
                         <Link to="Hero" smooth={true} duration={500} onClick={() => setIsOpen(false)} >
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" className="w-8" fill="#219ebc"><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM153 289l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L71 337c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM265 255l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
@@ -93,8 +93,8 @@ const HeroSection = () => {
                    
                 </div>
                 <div className="flex flex-col justify-center items-center  w-3/4 h-full  animate__animated animate__fadeInRight animate__delay-1s">
-                    <div className="color-overlay ">
-                        <img src={heroLogo} className="w-80 my-image  rounded-md grayscale" alt="my-image"></img>
+                    <div className="color-overlay">
+                        <img src={heroLogo} className="w-80 my-image  rounded-md grayscale " alt="my-image"></img>
                     </div>
                 </div>
             </div>
