@@ -41,9 +41,7 @@ const Skills = () => {
                 </div>
 
                 <p className="font-bold text-xl">Responsive Design</p>
-                <p>
-                ChatGPT
-                Using Flexbox and CSS Grid, I create responsive designs that adapt seamlessly to various devices, ensuring 
+                <p>Using Flexbox and CSS Grid, I create responsive designs that adapt seamlessly to various devices, ensuring 
                 optimal user experience across all screen sizes.</p>
             </div>
 
