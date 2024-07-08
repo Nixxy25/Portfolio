@@ -31,8 +31,8 @@ const Skills = () => {
                 </div>
 
                 <p className="font-bold text-xl">Website Development</p>
-                <p>Creative Front-End Developer specializing in modern web technologies like React.js, 
-                Tailwind CSS,Redux and TypeScript..</p>
+                <p>I specialize in Html,Css, React.js, Tailwind CSS, and Redux for creating modern, responsive websites
+                 with interactive user interfaces and efficient state management.</p>
             </div>
 
             <div className="flex flex-col justify-center items-center text-center shadow-n  gap-6 rounded-md py-8 px-4 max-sm:w-full max-lg:w-3/4  h-full">
@@ -41,8 +41,10 @@ const Skills = () => {
                 </div>
 
                 <p className="font-bold text-xl">Responsive Design</p>
-                <p>Creative Front-End Developer specializing in modern web technologies like React.js, 
-                Tailwind CSS,Redux and TypeScript.</p>
+                <p>
+                ChatGPT
+                Using Flexbox and CSS Grid, I create responsive designs that adapt seamlessly to various devices, ensuring 
+                optimal user experience across all screen sizes.</p>
             </div>
 
             <div className="flex flex-col justify-center items-center text-center shadow-n  gap-6 rounded-md py-8 px-4 max-sm:w-full max-lg:w-3/4 h-full">
@@ -51,8 +53,7 @@ const Skills = () => {
                 </div>
 
                 <p className="font-bold text-xl">API Integration</p>
-                <p>Creative Front-End Developer specializing in modern web technologies like React.js, 
-                Tailwind CSS,Redux and TypeScript..</p>
+                <p>I integrate APIs into web applications using React.js and tools like Axios for efficient data fetching, ensuring seamless functionality and real-time updates.</p>
             </div>
         </div>
         <div className="grid grid-cols-12 max-sm:grid-cols-4  max-lg:grid-cols-6  items-center" data-aos="fade-up">

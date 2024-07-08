@@ -9,7 +9,7 @@ const AboutMe = () => {
         </div>
 
         <div className="flex justify-between gap-10 px-16 max-lg:px-0 max-sm:flex-col">
-            <div className="w-full"  data-aos="fade-right">
+            <div className="w-full"  data-aos="fade-up">
                 <div className="pb-12 text-white text-lg flex gap-2 items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-5 " fill="#219ebc"><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg>
                     <p className="">My Profile</p>
@@ -29,7 +29,7 @@ const AboutMe = () => {
                 <p className="text-gray-400">Kindly check <span className="text-[#219ebc]">my resume</span>😀😀 for more of my development expertise</p>
             </div>
        
-            <div className="w-full h-full flex flex-col"  data-aos="fade-left">
+            <div className="w-full h-full flex flex-col"  data-aos="fade-up">
 
                 <div className="text-white pb-12 flex gap-2 items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-5" fill="#219ebc" viewBox="0 0 448 512"><path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
@@ -55,7 +55,7 @@ const AboutMe = () => {
                         <p  className="pb-4 text-gray-400 text-sm">Web Developer Intern</p>
                         <div className="flex gap-2 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" className="w-4" fill="#219ebc" viewBox="0 0 448 512"><path d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"/></svg>
-                            <p className="text-[#219ebc]">April 2024 - July 2024</p>
+                            <p className="text-[#219ebc]">April 2024 - June 2024</p>
                         </div>
                     </div>
                 </div>
