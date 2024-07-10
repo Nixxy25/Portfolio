@@ -1,5 +1,4 @@
 import heroLogo from "../assets/Images/portfolio-img.png";
-import logo from "../assets/Images/oyin-logo-removebg-preview.png"
 import curvedArrow from "../assets/Images/arrow.png";
 import line from "../assets/Images/line1.png";
 import { useState } from "react";
@@ -61,20 +60,20 @@ const HeroSection = () => {
                 </button>
               </div>
              
-                <div className={`flex gap-12 items-center cursor-pointer max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:text-3xl max-sm:text-[#219ebc] max-sm:uppercase" : "max-sm:hidden"}`}>
+                <div className={`flex gap-12 items-center cursor-pointer max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:text-3xl max-sm:text-gary-400 max-sm:uppercase" : "max-sm:hidden"}`}>
                     <Link to="About" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}><a href="#About">About Me</a></Link>
                     <Link to="Skills" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}>Skills</Link>
                     <Link to="Projects" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}>Projects</Link>
                     <Link to="Contact" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}>Contact</Link>
                 </div>
 
-                <a href="https://t.co/yN9fccBmWr" target="_blank"  className={`flex gap-8 items-center max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:pb-20" : "max-sm:hidden"}`}><button className="rounded-md border px-4 py-2 hvr-sweep-to-right text-sm border-[#219ebc] text-[#219ebc]">Hire Now</button></a>
+                <a href="https://t.co/yN9fccBmWr" target="_blank"  className={`flex gap-8 items-center  max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:pb-20" : "max-sm:hidden"}`}><button className="rounded-md border px-4 py-2 hvr-sweep-to-right text-sm border-[#219ebc] text-[#219ebc] max-sm:text-xl">Hire Now</button></a>
             </nav>
 
-            <div className="flex  px-24 pt-40 pb-16 justify-between items-center gap-8  max-lg:flex-col  max-sm:px-8 max-lg:px-12">
-                <div className="flex flex-col gap-8  max-w-2xl w-full animate__animated animate__fadeInLeft animate__delay-1s ">
+            <div className="flex  px-24 pt-40 pb-16 gap-8  max-lg:flex-col  max-sm:px-8 max-lg:px-12">
+                <div className="flex flex-col gap-8 w-full animate__animated animate__fadeInLeft animate__delay-1s ">
                     <p className="text-xl ">Hi, I'm Tella Oyinkansola</p>
-                    <p className="text-[55px] max-lg:text-5xl text-[#219ebc] font-bold max-sm:text-3xl ">Front End Developer.</p>
+                    <p className="text-[55px] max-lg:text-5xl text-[#219ebc] font-bold max-sm:text-[29px] ">Front End Developer.</p>
                     <div className="md:w-11/12 lg:w-10/12  text-gray-400">
                         <p>I excel in enhancing
                         web applications and websites for peak performance, efficiency, optimization, and design excellence.
@@ -92,9 +91,9 @@ const HeroSection = () => {
                     </div>
                    
                 </div>
-                <div className="flex flex-col justify-center items-center  w-3/4 h-full  animate__animated animate__fadeInRight animate__delay-1s">
+                <div className="flex flex-col justify-center items-center  lg:w-3/4 h-full  animate__animated animate__fadeInRight animate__delay-1s">
                     <div className="color-overlay">
-                        <img src={heroLogo} className="w-80 my-image  rounded-md grayscale " alt="my-image"></img>
+                        <img src={heroLogo} className="w-80 my-image box-shadow rounded-md grayscale" alt="my-image"></img>
                     </div>
                 </div>
             </div>

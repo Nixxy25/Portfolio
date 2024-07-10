@@ -10,6 +10,7 @@ import Redux from "../assets/Images/redux-image.png"
 import Sass from "../assets/Images/sass-image.png"
 import Tailwind from "../assets/Images/tailwind-image.png"
 import Skrew from "../assets/Images/skrew-1.png"
+import Framer from "../assets/Images/framer (2).png"
 import { Element } from "react-scroll"
 
 ////SEO FOR WEBSITE
@@ -31,7 +32,7 @@ const Skills = () => {
                 </div>
 
                 <p className="font-bold text-xl">Website Development</p>
-                <p>I specialize in Html,Css, React.js, Tailwind CSS, and Redux for creating modern, responsive websites
+                <p className="text-gray-400">I specialize in Html,Css, React.js, Tailwind CSS, and Redux for creating modern, responsive websites
                  with interactive user interfaces and efficient state management.</p>
             </div>
 
@@ -41,7 +42,7 @@ const Skills = () => {
                 </div>
 
                 <p className="font-bold text-xl">Responsive Design</p>
-                <p>Using Flexbox and CSS Grid, I create responsive designs that adapt seamlessly to various devices, ensuring 
+                <p className="text-gray-400">Using Flexbox and CSS Grid, I create responsive designs that adapt seamlessly to various devices, ensuring 
                 optimal user experience across all screen sizes.</p>
             </div>
 
@@ -51,7 +52,7 @@ const Skills = () => {
                 </div>
 
                 <p className="font-bold text-xl">API Integration</p>
-                <p>I integrate APIs into web applications using React.js and tools like Axios for efficient data fetching, ensuring seamless functionality and real-time updates.</p>
+                <p className="text-gray-400">I integrate APIs into web applications using React.js and tools like Axios for efficient data fetching, ensuring seamless functionality and real-time updates.</p>
             </div>
         </div>
         <div className="grid grid-cols-12 max-sm:grid-cols-4  max-lg:grid-cols-6  items-center" data-aos="fade-up">
@@ -100,7 +101,7 @@ const Skills = () => {
                 <p>Firebase</p>
             </div>
             <div  className="flex flex-col gap-2 items-center">
-                <img src={Bootstrap} className="w-16 max-sm:w-12" alt="Bootstrap-image"></img>
+                <img src={Framer} className="w-16 max-sm:w-12" alt="Framer-image"></img>
                 <p>Framer</p>
             </div> 
         </div>

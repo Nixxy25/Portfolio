@@ -1,5 +1,4 @@
 
-
 .color-overlay {
   position: relative;
   display: inline-block;
@@ -27,15 +26,32 @@
 .curve {
   transform: rotate(60deg);
 }
-.box-shadow-hover:hover{
-  box-shadow: 8px 8px;
-}
 
-.box-shadow{
-  box-shadow: 25px 25px #e63946;
-  border: 25px 25px  solid slateblue;
 
-}
 .line{
   filter: invert(79%) sepia(71%) saturate(4691%) hue-rotate(149deg) brightness(84%) contrast(74%);
 }
+
+/* The scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #001233; /* color of the track */
+}
+
+/* Handle (thumb) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #026d88; 
+  border-radius: 5px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #219ebc; 
+}
+
+
+
