@@ -23,9 +23,9 @@ const Projects = () => {
 
                     <div className="flex flex-col gap-4">
                         <div className="flex gap-3 items-center ">
-                            <p className="px-2 py-0.5  border-2 border-gray-400 rounded-md text-sm">React Js</p>
-                            <p className="px-2 py-0.5 border-2 border-gray-400 rounded-md text-sm">Tailwind Css</p>
-                            <p className="px-2 py-0.5 border-2 border-gray-400 rounded-md text-sm">Framer</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">React Js</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">Tailwind Css</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">Framer</p>
                         </div>
 
                         <div className="flex gap-4">
@@ -78,8 +78,8 @@ const Projects = () => {
 
                     <div className="flex flex-col gap-4 ">
                         <div className="flex gap-3 items-center">
-                            <p className="px-2 py-0.5 border border-gray-400 rounded-md text-sm">React Js</p>
-                            <p className="px-2 py-0.5 border border-gray-400 rounded-md text-sm">Sass</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">React Js</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">Sass</p>
                         </div>
 
                         <div className="flex gap-4">
@@ -108,8 +108,8 @@ const Projects = () => {
                     <div className="flex flex-col gap-4">
                         <div className="flex gap-3 items-center">
                             <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">React Js</p>
-                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">Tailwind Css</p>
-                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">JavaScript</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">Tailwind</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">Hooks</p>
                         </div>
 
                         <div className="flex gap-4">
