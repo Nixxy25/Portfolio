@@ -6,15 +6,15 @@ import { Element } from "react-scroll";
 const Projects = () => {
   return (
     <div>
-    <Element name="Projects" className="h-full w-full px-24 py-16 max-sm:px-8 max-lg:px-12"  data-aos="fade-up">
+    <Element name="Projects" className="h-full w-full px-24 py-16 max-sm:px-8 max-lg:px-12">
 
-        <div className="text-center flex justify-center pb-10">
+        <div className="text-center flex justify-center pb-10" data-aos="fade-up">
             <p className=" border-l-4 px-4 py-2 border-[#219ebc] bg-[#219dbc70] text-2xl">Projects</p>
         </div>
 
-        <div className="flex flex-col gap-16 max-lg:gap-24">
-            <div className="flex justify-between gap-16 max-lg:gap-6 items-center max-lg:flex-col max-lg:flex-col-reverse">
-                <div className="poolot shadow-n rounded-md w-full p-8  flex flex-col gap-8"  data-aos="fade-up">
+        <div className="flex flex-col gap-24 max-sm:gap-20" data-aos="fade-up">
+            <div className="flex justify-between gap-16 max-lg:gap-6 items-center max-lg:flex-col max-lg:flex-col-reverse"  data-aos="fade-up">
+                <div className="poolot shadow-n rounded-md w-full h-full p-8  flex flex-col gap-8" >
                     <div className="flex flex-col gap-4">
                         <p className="text-[#219ebc] text-sm">Featured -- Poolot</p>
                         <p className="text-2xl font-bold">Poolot</p>
@@ -35,13 +35,13 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="w-11/12 max-lg:w-full" data-aos="fade-up" >
+                <div className="w-11/12 max-lg:w-full" >
                     <a href="https://poolot-landingpage-omega-lovat.vercel.app" target="_blank"><img src={Poolot} className="hvr-shrink"  alt="Poolot-image-website"/></a>
                 </div>
             </div>
 
-            <div className="flex justify-between gap-16 max-lg:gap-6 items-center flex-row-reverse max-lg:flex-col max-lg:flex-col-reverse">
-                <div className="poolot shadow-n w-full rounded-md p-8 flex flex-col gap-8" data-aos="fade-up">
+            <div className="flex justify-between gap-16 max-lg:gap-6 items-center flex-row-reverse max-lg:flex-col max-lg:flex-col-reverse" data-aos="fade-up" >
+                <div className="poolot shadow-n w-full rounded-md p-8 flex flex-col gap-8" >
                     <div className="flex flex-col gap-4">
                         <p className="text-[#219ebc] text-sm">Featured -- Login Authentication</p>
                         <p className="text-2xl font-bold">Login Authentication</p>
@@ -50,9 +50,9 @@ const Projects = () => {
 
                     <div className="flex flex-col gap-4">
                         <div className="flex gap-3 items-center ">
-                            <p className="px-2 py-0.5 border-2 border-gray-400 rounded-md text-sm">React Js</p>
-                            <p className="px-2 py-0.5 border-2 border-gray-400 rounded-md text-sm">Tailwind Css</p>
-                            <p className="px-2 py-0.5 border-2 border-gray-400 rounded-md text-sm">Firebase</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">React Js</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">Tailwind Css</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">Firebase</p>
                         </div>
 
                         <div className="flex gap-4">
@@ -62,14 +62,14 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="w-11/12 max-lg:w-full" data-aos="fade-up">
+                <div className="w-11/12 max-lg:w-full">
                     <a href="https://github.com/Nixxy25/OIBSIP-LOGIN-AUTHENTICATION"><img src={Login} className="hvr-shrink" alt="Poolot-image-website"/></a>
                 </div>
             </div>
 
 
-            <div className="flex justify-between gap-16 max-lg:gap-6 items-center max-lg:flex-col max-lg:flex-col-reverse">
-                <div className="poolot shadow-n w-full rounded-md p-8 flex flex-col gap-8" data-aos="fade-up">
+            <div data-aos="fade-up" className="flex justify-between gap-16 max-lg:gap-6 items-center max-lg:flex-col max-lg:flex-col-reverse">
+                <div className="poolot shadow-n w-full rounded-md p-8 flex flex-col gap-8">
                     <div className="flex flex-col gap-4">
                         <p className="text-[#219ebc] text-sm">Featured -- Scissors</p>
                         <p className="text-2xl font-bold">Scissors Landing Page</p>
@@ -78,8 +78,8 @@ const Projects = () => {
 
                     <div className="flex flex-col gap-4 ">
                         <div className="flex gap-3 items-center">
-                            <p className="px-2 py-0.5 border-2 border-gray-400 rounded-md text-sm">React Js</p>
-                            <p className="px-2 py-0.5 border-2 border-gray-400 rounded-md text-sm">Tailwind Css</p>
+                            <p className="px-2 py-0.5 border border-gray-400 rounded-md text-sm">React Js</p>
+                            <p className="px-2 py-0.5 border border-gray-400 rounded-md text-sm">Sass</p>
                         </div>
 
                         <div className="flex gap-4">
@@ -89,14 +89,14 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="w-11/12 max-lg:w-full" data-aos="fade-up">
+                <div className="w-11/12 max-lg:w-full" >
                     <a href="https://scissors-website.vercel.app"><img src={scissors} className="hvr-shrink" alt="Poolot-image-website"/></a>
                 </div>
             </div>
 
 
-            <div className="flex justify-between gap-16 max-lg:gap-6 items-center flex-row-reverse max-lg:flex-col max-lg:flex-col-reverse">
-                <div className="poolot shadow-n rounded-md w-full p-8 flex flex-col gap-8" data-aos="fade-up">
+            <div data-aos="fade-up" className="flex justify-between gap-16 max-lg:gap-6 items-center flex-row-reverse max-lg:flex-col max-lg:flex-col-reverse">
+                <div className="poolot shadow-n rounded-md w-full p-8 flex flex-col gap-8">
                     <div className="flex flex-col gap-4">
                         <p className="text-[#219ebc] text-sm">Featured -- Todo App</p>
                         <p className="text-2xl font-bold">Todo Web App</p>
@@ -107,9 +107,9 @@ const Projects = () => {
 
                     <div className="flex flex-col gap-4">
                         <div className="flex gap-3 items-center">
-                            <p className="px-2 py-0.5 border-2 border-gray-400 rounded-md text-sm">React Js</p>
-                            <p className="px-2 py-0.5 border-2 border-gray-400 rounded-md text-sm">Tailwind & Css</p>
-                            <p className="px-2 py-0.5 border-2 border-gray-400 rounded-md text-sm">Local Storage</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">React Js</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">Tailwind Css</p>
+                            <p className="px-2 py-1 border border-gray-400 rounded-md text-sm">JavaScript</p>
                         </div>
 
                         <div className="flex gap-4">
@@ -119,7 +119,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="w-11/12 max-lg:w-full" data-aos="fade-up">
+                <div className="w-11/12 max-lg:w-full">
                     <a href="https://oibsip-todo-app.vercel.app" target="_blank"><img src={TodoImage} className="hvr-shrink" alt="Poolot-image-website"/></a>
                 </div>
             </div>

@@ -1,19 +1,60 @@
 
 .color-overlay {
   position: relative;
-  display: inline-block;
+}
+
+.image{
+  filter: grayscale(100%);
+}
+
+.image:hover{
+  filter: grayscale(0%);
+}
+.color-overlay::before,
+.color-overlay::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  transition: 0.5s ease-in-out;
+}
+.color-overlay::before {
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  background:#219ebc;  
+  mix-blend-mode: multiply;
+  
+}
+.color-overlay:hover::before{
+  transform: translate(-4px, -4px);
+  background: transparent;
+  filter: grayscale(0%);
+  position: relative;
+}
+.color-overlay:hover::after{
+  transform: translate(8px, 8px);
+
 }
 .color-overlay::after {
+  bottom: -18px;
+  right: -18px;
+  z-index: -1;
+  border: 2px solid #219ebc;
+}
+/* .color-overlay::after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color:#219ebc; /* Adjust color and opacity as needed */
-  mix-blend-mode: multiply; /* or use overlay, screen, etc. depending on the effect you want */
+  background-color:#219ebc;  Adjust color and opacity as needed 
+  mix-blend-mode: multiply; /* or use overlay, screen, etc. depending on the effect you want 
   pointer-events: none;
-}
+  border-radius:5px;
+} */
 .img-hover:hover{
   filter: invert(79%) sepia(71%) saturate(4691%) hue-rotate(149deg) brightness(84%) contrast(74%);
 }
@@ -34,7 +75,7 @@
 
 /* The scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 /* Track (background) of the scrollbar */
@@ -48,10 +89,6 @@
   border-radius: 5px; 
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #075e74; 
-}
 
 
 

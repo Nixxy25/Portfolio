@@ -3,16 +3,16 @@ import { Element } from "react-scroll";
 const Contact = () => {
   return (
     <div>
-    <Element name="Contact" className="h-full w-full px-24 pt-16 pb-6 flex flex-col gap-12 max-sm:px-6 max-lg:px-12">
+    <Element name="Contact" className="h-full w-full px-24 pb-6 pt-16 flex flex-col gap-12 max-sm:px-6 max-lg:px-12">
         <div className="text-center flex justify-center pb-10" data-aos="fade-up">
             <p className=" border-l-4 px-4 py-2 border-[#219ebc] bg-[#219dbc70] text-2xl">Contact Me</p>
         </div>
 
             <div className="flex justify-center pb-10 ">
-                <div className="flex flex-col justify-center  max-sm:w-full  w-1/2 max-lg:w-10/12 gap-12">
-                    <p className="text-center text-5xl max-sm:text-3xl font-bold text-white" data-aos="fade-up">Get In Touch</p>
-                    <p className="text-lg text-gray-400 text-center" data-aos="fade-up">Are you in need of a skilled front-end developer to bring your ideas to life? I'm actively looking for new challenges and would love to hear from you. Reach out and let's chat!</p>
-                    <a href="https://calendly.com/tellaoyinkansola25/30min" target="_blank" className="flex justify-center" data-aos="fade-up"><button className="hvr-sweep-to-right rounded-md border-2 font-bold text-[#219ebc] py-4 px-3 border-[#219ebc]">Book a Free Call</button></a>
+                <div className="flex flex-col justify-center  max-sm:w-full  w-1/2 max-lg:w-10/12 gap-12" data-aos="fade-up">
+                    <p className="text-center text-5xl max-sm:text-3xl font-bold text-white" >Get In Touch</p>
+                    <p className="text-lg text-gray-400 text-center">Are you in need of a skilled front-end developer to bring your ideas to life? I'm actively looking for new challenges and would love to hear from you. Reach out and let's chat!</p>
+                    <a href="https://calendly.com/tellaoyinkansola25/30min" target="_blank" className="flex justify-center" ><button className="hvr-sweep-to-right rounded-md border-2 font-bold text-[#219ebc] py-4 px-3 border-[#219ebc]">Book a Free Call</button></a>
                 </div>
             </div>
 
