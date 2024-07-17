@@ -75,7 +75,7 @@
 
 /* The scrollbar */
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 5px;
 }
 
 /* Track (background) of the scrollbar */

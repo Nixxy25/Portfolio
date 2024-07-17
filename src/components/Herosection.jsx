@@ -68,14 +68,14 @@ const HeroSection = () => {
                     <Link to="Contact" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}>Contact</Link>
                 </div>
 
-                <a href="https://t.co/yN9fccBmWr" target="_blank"  className={`flex gap-8 items-center  max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:pb-20" : "max-sm:hidden"}`}><button className="rounded-md border px-4 py-2 hvr-sweep-to-right hover:border hover:border-[#219ebc] text-sm border-white  font-bold max-sm:text-xl">Hire Now</button></a>
+                <a href="https://t.co/yN9fccBmWr" target="_blank"  className={`flex gap-8 items-center  max-sm:flex-col ${isOpen ? "max-sm:flex max-sm:pb-20" : "max-sm:hidden"}`}><button className="rounded-md border px-4 py-2 hvr-sweep-to-right hover:border hover:border-[#219ebc] text-sm border-white   max-sm:text-xl">Hire Now</button></a>
             </nav>
             </div>
 
             <div className="flex  px-24  gap-8  max-lg:flex-col  max-sm:px-8 max-lg:px-12">
                 <div className="flex flex-col gap-8 w-full animate__animated animate__fadeInLeft animate__delay-1s ">
                     <p className="text-xl ">Hi, I'm Tella Oyinkansola</p>
-                    <p className="text-[55px] max-lg:text-5xl text-[#219ebc] font-bold max-sm:text-[29px] ">Front End Developer.</p>
+                    <p className="text-[43px] max-lg:text-5xl text-[#219ebc] font-bold max-sm:text-[29px] ">Front End Developer.</p>
                     <div className="md:w-11/12 lg:w-10/12 text-lg  text-gray-400">
                         <p>I excel in enhancing
                         web applications and websites for peak performance, efficiency, optimization, and design excellence.
