@@ -7,11 +7,13 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Link, Element} from "react-scroll";
 import resume from "../assets/Tella-Oyinkansola.pdf"
+import WordRotate from "../UI/wordRotate";
+import { cn } from "../lib/utils";
+import GridPattern from "../UI/gridPattern";
 
 const HeroSection = () => {
     const [isOpen, setIsOpen] = useState(false);
-
-   
+    const words = ['Frontend Engineer', 'Web Developer', 'SEO Specialist'];
 
     useEffect(() => {
         AOS.init({
@@ -25,17 +27,27 @@ const HeroSection = () => {
   return (
     <div className="">
     <Element name="Hero" className="relative w-full h-full">
+        <GridPattern
+            numSquares={30}
+            maxOpacity={0.1}
+            duration={3}
+            repeatDelay={1}
+            className={cn(
+            "[mask-image:radial-gradient(700px_circle_at_center,white,transparent)]",
+            "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12",
+            )}
+        />
 
         <img src={line} className="absolute line left-0 top-32 max-lg:hidden" alt="line"></img>
         <img src={line} className="absolute line bottom-10 right-0 max-lg:hidden" alt="line"></img>
 
         <div className=" flex gap-20 flex-col">
             <div className="pb-24">
-            <nav className={`flex fixed z-50  px-24  max-sm:px-8 bg-[#001233] max-lg:px-12 w-full max-lg:pb-8 max-sm:pb-6 py-6 items-center  animate__animated animate__fadeInDown border-b justify-between border-[#219ebc]  text-[#f1faee] ${isOpen ? "max-lg:fixed  max-sm:flex-col max-sm:bg-[#001233] max-sm:h-screen max-sm:z-20 max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:pt-8 max-sm:px-8" : "max-sm:flex-col"}`}>
+            <nav className={`flex fixed z-50  px-24  max-sm:px-8 bg-[#001233] max-lg:px-12 w-full max-lg:pb-8 max-sm:py-4 py-6 items-center  animate__animated animate__fadeInDown border-b justify-between border-[#219ebc]  text-[#f1faee] ${isOpen ? "max-lg:fixed  max-sm:flex-col max-sm:bg-[#001233] max-sm:h-screen max-sm:z-20 max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:pt-8 max-sm:px-8" : "max-sm:flex-col"}`}>
                 <div className="max-sm:flex max-sm:w-full items-center max-sm:justify-between">
                     <div className="">
                         <Link to="Hero" smooth={true} duration={500} onClick={() => setIsOpen(false)} >
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" className="w-8" fill="#219ebc"><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM153 289l-31 31 31 31c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L71 337c-9.4-9.4-9.4-24.6 0-33.9l48-48c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9zM265 255l48 48c9.4 9.4 9.4 24.6 0 33.9l-48 48c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l31-31-31-31c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0z"/></svg>
+                            <div className="text-[#219ebc] font-bold text-xl tracking-widest">OYINX</div>
                         </Link> 
                     </div>
                     
@@ -73,9 +85,11 @@ const HeroSection = () => {
             </div>
 
             <div className="flex  px-24  gap-8  max-lg:flex-col  max-sm:px-8 max-lg:px-12">
-                <div className="flex flex-col gap-8 w-full animate__animated animate__fadeInLeft animate__delay-1s ">
-                    <p className="text-xl ">Hi, I'm Tella Oyinkansola</p>
-                    <p className="text-[43px] max-lg:text-5xl text-[#219ebc] font-bold max-sm:text-[29px] ">Front End Developer.</p>
+                <div className="flex flex-col gap-6 w-full animate__animated animate__fadeInLeft animate__delay-1s ">
+                    <p className="text-xl ">Hi, I'm Tella Oyinkansola ✨</p>
+                    <span className="text-[43px] max-lg:text-5xl text-[#219ebc] font-bold max-sm:text-[29px]">
+                        <WordRotate words={words} />
+                    </span>
                     <div className="md:w-11/12 lg:w-10/12 text-lg  text-gray-400">
                         <p>I excel in enhancing
                         web applications and websites for peak performance, efficiency, optimization, and design excellence.

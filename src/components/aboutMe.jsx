@@ -1,6 +1,7 @@
 import "./aboutMe.css";
 import { Element } from "react-scroll";
 
+
 const AboutMe = () => {
   return (
     <Element name="About" className="px-24 py-16 max-sm:px-8 max-lg:px-12 flex flex-col gap-12 h-full items-center">
@@ -16,6 +17,7 @@ const AboutMe = () => {
                 </div>
 
                 <div className="flex flex-col w-full gap-4 text-gray-400 pb-8">
+
                 <p>Hello 😀! My name is <span className="text-[#219ebc]">Oyinkansola</span>, and I'm a front-end developer 💻 passionate about 
                 creating visually appealing and <span className="text-[#219ebc]">user-friendly</span> web experiences. I specialize in building responsive, <span className="text-[#219ebc]">interactive </span>
                 websites that provide seamless user interactions.</p>
