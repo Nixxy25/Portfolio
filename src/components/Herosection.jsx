@@ -43,11 +43,11 @@ const HeroSection = () => {
 
         <div className=" flex gap-20 flex-col">
             <div className="pb-24">
-            <nav className={`flex fixed z-50  px-24  max-sm:px-8 bg-[#001233] max-lg:px-12 w-full max-lg:pb-8 max-sm:py-4 py-6 items-center  animate__animated animate__fadeInDown border-b justify-between border-[#219ebc]  text-[#f1faee] ${isOpen ? "max-lg:fixed  max-sm:flex-col max-sm:bg-[#001233] max-sm:h-screen max-sm:z-20 max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:pt-8 max-sm:px-8" : "max-sm:flex-col"}`}>
+            <nav className={`flex fixed z-50  px-24  max-sm:px-8 bg-[#001233] max-lg:px-12 w-full max-lg:pb-8 max-sm:py-4 py-6 items-center  animate__animated animate__fadeInDown border-b justify-between border-[#219ebc]  text-[#f1faee] ${isOpen ? "max-lg:fixed   max-sm:flex-col max-sm:bg-[#001233] max-sm:h-screen max-sm:z-20 max-sm:top-0 max-sm:left-0 max-sm:right-0 max-sm:pt-8 max-sm:px-8" : "max-sm:flex-col"}`}>
                 <div className="max-sm:flex max-sm:w-full items-center max-sm:justify-between">
                     <div className="">
                         <Link to="Hero" smooth={true} duration={500} onClick={() => setIsOpen(false)} >
-                            <div className="text-[#219ebc] font-bold text-xl tracking-widest">OYINX</div>
+                            <div className="text-[#219ebc] font-bold text-xl tracking-widest cursor-pointer ">OYINX</div>
                         </Link> 
                     </div>
                     
@@ -73,7 +73,7 @@ const HeroSection = () => {
                 </button>
               </div>
              
-                <div  className={`flex gap-12 items-center cursor-pointer max-sm:flex-col ${isOpen ? "max-sm:flex   max-sm:text-3xl max-sm:text-gary-400 max-sm:uppercase" : "max-sm:hidden"}`}>
+                <div  className={`flex gap-12 items-center cursor-pointer max-sm:flex-col ${isOpen ? "max-sm:flex   max-sm:text-3xl max-sm:font-[600] max-sm:text-gary-400 max-sm:uppercase" : "max-sm:hidden"}`}>
                     <Link to="About" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}><a href="#About">About Me</a></Link>
                     <Link to="Skills" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}>Skills</Link>
                     <Link to="Projects" smooth={true} duration={500} className="hvr-grow hover:text-[#219ebc]" onClick={() => setIsOpen(false)}>Projects</Link>

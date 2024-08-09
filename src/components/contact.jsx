@@ -11,7 +11,7 @@ const Contact = () => {
             <div className="flex justify-center pb-10 ">
                 <div className="flex flex-col justify-center  max-sm:w-full  w-1/2 max-lg:w-10/12 gap-12" data-aos="fade-up">
                     <p className="text-center text-5xl max-sm:text-3xl font-bold text-white" >Get In Touch</p>
-                    <p className="text-lg text-gray-400 text-center">Are you in need of a skilled front-end developer to bring your ideas to life? I'm actively looking for new challenges and would love to hear from you. Reach out and Let's chat!</p>
+                    <p className="text-lg text-gray-400 text-center">Are you in need of a skilled front-end developer to bring your ideas to life? I'm actively looking for new challenges and would love to hear from you. Reach out and let's chat!</p>
                     <a href="https://calendly.com/tellaoyinkansola25/30min" target="_blank" className="flex justify-center" ><button className="hvr-sweep-to-right rounded-md border-2 font-bold text-[#219ebc] py-4 px-3 border-[#219ebc]">Book a Free Call</button></a>
                 </div>
             </div>
@@ -24,7 +24,7 @@ const Contact = () => {
                     <a href="https://www.linkedin.com/in/tella-oyinkansola" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" className="w-7 max-sm:w-5 hvr-hang" fill="#219ebc" viewBox="0 0 448 512"><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg></a>
                     <a href="https://www.facebook.com/Oyinixxi?mibextid=JRoKGi" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" className="w-7 max-sm:w-5 hvr-hang" fill="#219ebc" viewBox="0 0 512 512"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg></a>
                 </div>
-                <div className="flex text-sm text-gray-400 hover:text-[#219ebc]">Built by Tella Oyinkansola</div>
+                <div className="flex text-sm text-gray-400 hover:text-[#219ebc]">Built by Tella Oyinkansola 202</div>
             </div>
         </Element>
     </div>

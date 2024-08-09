@@ -1,4 +1,4 @@
-import Bootstrap from "../assets/Images/bootstrap-image.png"
+import Typescript from "../assets/Images/typescrit1.png"
 import Css from "../assets/Images/css-image.png"
 import Figma from "../assets/Images/figam-image.png"
 import Firebase from "../assets/Images/firebase-image.png"
@@ -73,8 +73,8 @@ const Skills = () => {
                 <p>Tailwind</p>
             </div>
             <div  className="flex flex-col gap-2 items-center">
-                <img src={Bootstrap} className="w-16 max-sm:w-12" alt="Bootstrap-image"></img>
-                <p>Bootstrap</p>
+                <img src={Typescript} className="w-16 max-sm:w-12" alt="Bootstrap-image"></img>
+                <p>Typescript</p>
             </div>
             <div  className="flex flex-col gap-2 items-center">
                 <img src={Sass} className="w-16 max-sm:w-12" alt="Sass-image"></img>
