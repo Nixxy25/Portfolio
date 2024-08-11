@@ -32,7 +32,7 @@ const Skills = () => {
                 </div>
 
                 <p className="font-bold text-xl">Website Development</p>
-                <p className="text-gray-400">I specialize in Html,Css, React.js, Tailwind CSS, and Redux for creating modern, responsive websites
+                <p className="text-gray-400">I specialize in Html,Css, React Js, Typescript, Tailwind CSS, and Redux for creating modern, responsive websites
                  with interactive user interfaces and efficient state management.</p>
             </div>
 
@@ -42,7 +42,7 @@ const Skills = () => {
                 </div>
 
                 <p className="font-bold text-xl">Responsive Design</p>
-                <p className="text-gray-400">Using Flexbox and CSS Grid, I create responsive designs that adapt seamlessly to various devices, ensuring 
+                <p className="text-gray-400">Using Tailwind,Flexbox and CSS Grid, I create responsive designs that adapt seamlessly to various devices, ensuring 
                 optimal user experience across all screen sizes.</p>
             </div>
 

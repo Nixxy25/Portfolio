@@ -44,7 +44,7 @@ export const projects =[
         skills:[
             'React Js',
             "Tailwind Css",
-            'Framer Motion',
+            'Material UI',
         ],
         github:'https://github.com/Nixxy25/VernChain-Website',
         website:'https://vernchain-eight.vercel.app',
