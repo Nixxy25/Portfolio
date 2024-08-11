@@ -16,19 +16,21 @@ const AboutMe = () => {
                     <p className="">My Profile</p>
                 </div>
 
-                <div className="flex flex-col w-full gap-4 text-gray-400 pb-8">
 
-                <p>Hello 😀! My name is <span className="text-[#219ebc]">Oyinkansola</span>, and I'm a front-end developer 💻 passionate about 
-                creating visually appealing and <span className="text-[#219ebc]">user-friendly</span> web experiences. I specialize in building responsive, <span className="text-[#219ebc]">interactive </span>
-                websites that provide seamless user interactions.</p>
+                    <div className="flex flex-col w-full gap-4 text-gray-400 pb-8">
+                        <p>Turning ideas into reality drives my passion in tech. Hi there, I’m a <span className="text-[#219ebc]">frontend engineer</span> based in Nigeria, 
+                        specializing in both <span className="text-[#219ebc]">design and functionality</span>. I focus on creating user-friendly and visually appealing website interfaces, ensuring that every feature <span className="text-[#219ebc]">works 
+                        smoothly</span> and enhances the overall experience.</p>
+                    
+                        <p><span className="text-[#219ebc]">Coding</span> has always fascinated me, from <span className="text-[#219ebc]">debugging to improving website</span> performance. 
+                        I enjoy tackling problems and making sure everything <span className="text-[#219ebc]">functions perfectly.</span></p>
 
-                <p>When I'm not coding, I enjoy  <span className="text-[#219ebc]">playing games</span>, watching football, and indulging in movies.</p>
-
-                <p>I thrive on the challenge of  <span className="text-[#219ebc]">turning ideas into reality</span> and continuously strive to enhance my skills.
-                Let's  <span className="text-[#219ebc]">work together</span> to bring your  <span className="text-[#219ebc]">vision to life</span> with engaging and dynamic web solutions!</p>
-                </div>
-
-                <p className="text-gray-400">Kindly check <span className="text-[#219ebc]">my resume</span>😀😀 for more of my development expertise</p>
+                        <p>Aside from coding, I’m a big fan of <span className="text-[#219ebc]">football and gaming</span>. These hobbies keep me <span className="text-[#219ebc]">engaged and 
+                        inspired</span>, fueling my creativity and teamwork.</p>
+                    
+                        <p><span className="text-[#219ebc]">Let’s work</span> together to turn your ideas into amazing web experiences—reach out and <span className="text-[#219ebc]">let’s get started!</span></p>
+                    </div>
+                
             </div>
        
             <div className="w-full h-full flex flex-col"  data-aos="fade-up">
