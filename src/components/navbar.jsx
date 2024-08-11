@@ -72,7 +72,7 @@ export default function Navbar() {
               backgroundColor: '#001233',
               width:'70%',
               display:'flex',
-              justifyContent: 'center',
+              paddingTop:'60px',
               '@media (min-width: 680px)':  { display: 'none'},
         
               

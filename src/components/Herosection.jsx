@@ -1,12 +1,11 @@
 import heroLogo from "../assets/Images/me.png";
 import curvedArrow from "../assets/Images/arrow.png";
 import line from "../assets/Images/line1.png";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Link, Element} from "react-scroll";
-import resume from "../assets/Tella-Oyinkansola.pdf"
+import resume from "../assets/TellaOyinkansola.pdf"
 import WordRotate from "../UI/wordRotate";
 import { cn } from "../lib/utils";
 import GridPattern from "../UI/gridPattern";

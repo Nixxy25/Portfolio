@@ -68,8 +68,8 @@ export const projects =[
         id: 5,
         imageUrl:Login,
         status:'Featured',
-        statusName:'OIBSIP',
-        name:'LOGIN-AUTHENTICATION',
+        statusName:'Login',
+        name:'LOGIN-AUTH',
         description:'I developed an authentication website using Firebase to explore its capabilities. The result was a clean and seamless user experience, with smooth login and signup processes.',
         skills:[
             'React Js',
